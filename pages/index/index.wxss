@@ -1,0 +1,35 @@
+.page_con{
+  width: 100%;
+  padding: 40px;
+}
+.page_con .txt{
+  padding: 6px 0;
+}
+.page_txt1{
+  font-size: 18px;
+}
+.page_txt2{
+  color: #999;
+}
+
+.btn{
+  width: 80%;
+  margin-top: 10%;
+  background: #32b16c;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.request_title{
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.name_list text{
+  color: #999;
+  line-height: 30px;
+}

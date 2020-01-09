@@ -1,0 +1,13 @@
+<view class="page_con">
+  <view class="txt page_txt1">微信小程序</view>
+  <view class="txt page_txt2">htpp请求封装</view>
+  <view class="btn" bindtap="clickEvent">点击发出请求</view>
+  <view class="request_con" hidden="{{!isShow}}">
+    <view class="request_title">数据响应结果：</view>
+    <view class="name_list" wx:for="{{nameList}}" wx:for-item="nameItem" wx:key="index">
+      <text>姓名：</text>
+      <text class="name">{{nameItem.name}}</text>
+    </view>
+  </view>
+
+</view>
